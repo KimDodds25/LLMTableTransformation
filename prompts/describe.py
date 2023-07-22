@@ -1,3 +1,5 @@
+"""Define LLM prompts focused on writing descriptions."""
+
 DESCRIBE_CSV_FORMAT = (
     "INSTRUCTION:\n"
     "You will be provided with a csv-formatted string. "
