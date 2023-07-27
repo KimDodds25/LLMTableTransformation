@@ -8,7 +8,7 @@ import logging
 import openai
 import os
 
-OPENAI_TOKEN = os.getenv("PERSONAL_OPENAI_API_KEY", "")
+OPENAI_TOKEN = os.getenv("OPENAI_API_KEY", "")
 TEMPERATURE = 0.0
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
